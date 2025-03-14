@@ -1,0 +1,14 @@
+@DemoApi_HostAddress = http://localhost:5057
+
+GET {{DemoApi_HostAddress}}/healthCheck
+Accept: application/json
+
+###
+GET {{DemoApi_HostAddress}}/test
+Accept: application/json
+
+###
+GET {{DemoApi_HostAddress}}/data
+Accept: application/json
+
+###
