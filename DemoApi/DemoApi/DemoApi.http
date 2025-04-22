@@ -4,7 +4,7 @@ GET {{DemoApi_HostAddress}}/healthCheck
 Accept: application/json
 
 ###
-GET {{DemoApi_HostAddress}}/test
+GET {{DemoApi_HostAddress}}/
 Accept: application/json
 
 ###
